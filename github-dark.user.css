@@ -904,6 +904,43 @@
         color: var(--primary-text-color) !important;
     }
 
+    .SelectMenu-filter {
+        border-top: 1px solid var(--border-color);
+    }
+    
+    .SelectMenu-item {
+        background-color: var(--accent-color);
+        border-bottom: 1px solid var(--border-color);
+    }
+    
+    .SelectMenu-item[aria-checked=true] {
+        color: var(--primary-text-color);
+    }
+    
+    .SelectMenu-item[aria-checked=true]:hover {
+        background-color: var(--body-color) !important;
+    }
+    
+    .SelectMenu-list {
+        background-color: var(--border-color);
+        border-top: 1px solid var(--border-color);
+    }
+    
+    .SelectMenu-modal {
+        background-color: var(--body-color);
+        border: 1px solid var(--border-color);
+    }
+    
+    .SelectMenu-tab {
+        box-shadow: inset 0 -1px 0 var(--border-color);
+    }
+    
+    .SelectMenu-tab[aria-selected=true] {
+        background-color: var(--accent-color);
+        border-color: var(--border-color);
+        color: var(--primary-text-color);
+    }
+
     /* Repo | Pull Request Tab */
 
     .border-left,
